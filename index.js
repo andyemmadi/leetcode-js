@@ -5,4 +5,8 @@ import './style.css';
 const appDiv = document.getElementById('app');
 appDiv.innerHTML = `<h1>LeetCode Challenges</h1>`;
 
-console.log('LeetCode Challenges');
+const init = () => {
+  console.log('init');
+};
+
+init();
